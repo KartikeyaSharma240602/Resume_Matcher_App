@@ -1,4 +1,5 @@
 **Resume and Job Description Matcher**
+
 A Flask-powered web application that evaluates the compatibility between a resume and a job description. This tool leverages NLP techniques to extract, process, and compare keywords, providing a match score and actionable suggestions to optimize resumes for specific job descriptions.
 
 **Features**
