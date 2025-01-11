@@ -1,4 +1,4 @@
-#**Resume and Job Description Matcher**
+**Resume and Job Description Matcher**
 A Flask-powered web application that evaluates the compatibility between a resume and a job description. This tool leverages NLP techniques to extract, process, and compare keywords, providing a match score and actionable suggestions to optimize resumes for specific job descriptions.
 
 **Features**
@@ -16,26 +16,26 @@ Utilities: PyPDF2 for PDF text extraction
 
 **Installation**
 1. Clone the Repository
-   '''
+   ```
    git clone https://github.com/yourusername/resume-job-matcher.git
    cd resume-job-matcher
-   '''
+   ```
 
 2. Set Up Virtual Environment
-   '''
+   ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use venv\Scripts\activate 
-   '''
+   ```
 
 3. Install Dependencies
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 
 4. Run the Application
-   '''
+   ```
    python app.py
-   '''
+   ```
 
 5. Access the Application Open your web browser and navigate to http://127.0.0.1:5000/
 
@@ -45,7 +45,7 @@ Enter Job Description: Paste the job description text into the provided field.
 View Results: The app calculates a match score, displays common keywords, and suggests missing ones to improve the resume.
 
 **Project Structure**
-'''
+```
 ├── app.py                     # Flask application entry point
 ├── resume_job_matcher.py      # Core functions for text processing and matching
 ├── templates/
@@ -53,7 +53,7 @@ View Results: The app calculates a match score, displays common keywords, and su
 │   ├── result.html            # Page displaying match results and suggestions
 ├── uploads/                   # Directory for storing uploaded resumes
 └── requirements.txt           # List of Python dependencies
-'''
+```
 
 **Screenshots:**
 ![Screenshot 2025-01-11 200159](https://github.com/user-attachments/assets/bab5d259-5a10-41f4-bc04-fc5b0a3b59b1)
